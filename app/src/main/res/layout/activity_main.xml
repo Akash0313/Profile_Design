@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E0E0E"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="CREATE YOUR PROFILE"
+        android:textColor="#FCFDFD"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif-medium"
+        />
+
+    <ImageView
+        android:layout_width="172dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/img"
+        android:tint="#BDB5B5"
+        />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edit"
+        android:gravity="center"
+        android:hint="Enter your name"
+        android:textColorHint="#090909" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:hint="Your proffession"
+        android:gravity="center"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edit"
+        android:textColorHint="#090909"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edit"
+        android:gravity="center"
+        android:hint="Email Id"
+        android:inputType="number|textEmailAddress|numberPassword"
+        android:textColorHint="#090909" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edit"
+        android:gravity="center"
+        android:hint="Mobile no"
+        android:inputType="phone"
+        android:textColorHint="#090909" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edit2"
+        android:text="Submit"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
